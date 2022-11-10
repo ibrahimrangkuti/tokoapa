@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TokoApa</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container px-6 md:px-10 py-6 md:py-8">
+        <nav class="flex items-center justify-between">
+            <h1 class="font-bold text-2xl text-[#FF8532]">TokoApa</h1>
+            <ul class="hidden md:flex gap-8">
+                <li>
+                    <a href="" class="text-slate-500 hover:text-[#FF8532]">Home</a>
+                </li>
+                <li>
+                    <a href="" class="text-slate-500 hover:text-[#FF8532]">Products</a>
+                </li>
+                <li>
+                    <a href="" class="text-slate-500 hover:text-[#FF8532]">Contact Us</a>
+                </li>
+            </ul>
+            <div class="hidden md:flex gap-4 items-center">
+                <a href="">Sign In</a>
+                <a href="" class="btn-primary">Sign
+                    Up</a>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                class="bi bi-list md:hidden" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+        </nav>
+
+        <!-- Detail Product -->
+        <section class="pt-12 md:pt-16" id="detail">
+            <div class="flex flex-col md:flex-row gap-4">
+                <div class="w-full h-full p-8 shadow">
+                    <div>
+                        <div class="mb-4">
+                            <p class="pb-3 font-medium text-primary">Nama Penerima</p>
+                            <input type="text" class="border-b border-slate-300 outline-none w-full">
+                        </div>
+                        <div class="mb-4">
+                            <p class="pb-3 font-medium text-primary">Alamat Penerima</p>
+                            <textarea name="" id="" cols="30" rows="2"
+                                class="border-b border-slate-300 outline-none w-full"></textarea>
+                        </div>
+                    </div>
+                    <div class="mb-4">
+                        <p class="pb-3 font-medium text-primary">Provinsi</p>
+                        <select name="" id="" class="border-b border-slate-300 outline-none w-full">
+                            <option value="">DKI Jakarta</option>
+                            <option value="">Banten</option>
+                            <option value="">Jawa Barat</option>
+                        </select>
+                    </div>
+                    <div class="mb-4">
+                        <p class="pb-3 font-medium text-primary">Kabupaten / Kota</p>
+                        <select name="" id="" class="border-b border-slate-300 outline-none w-full">
+                            <option value="">Kota Tangerang</option>
+                            <option value="">Kota Tangerang Selatan</option>
+                            <option value="">Kab. Tangerang</option>
+                        </select>
+                    </div>
+                    <div class="mb-4">
+                        <p class="pb-3 font-medium text-primary">Kecamatan</p>
+                        <select name="" id="" class="border-b border-slate-300 outline-none w-full">
+                            <option value="">Pasar Kemis</option>
+                            <option value="">Rajeg</option>
+                            <option value="">Mauk</option>
+                        </select>
+                    </div>
+                    <div class="mb-4">
+                        <p class="pb-3 font-medium text-primary">Kode Pos</p>
+                        <input type="number" name="qty" class="border-b border-slate-300 outline-none w-full">
+                    </div>
+                </div>
+                <div class="w-full h-full p-8 shadow">
+                    <div class="mb-4">
+                        <p class="pb-3 font-medium text-primary">Metode Pembayaran</p>
+                        <div class="grid grid-cols-2 md:grid-cols-4 gap-4 items-center">
+                            <img src="img/logo-bca.png" alt=""
+                                class="cursor-pointer opacity-50 hover:opacity-100 transition-all duration-500">
+                            <img src="img/logo-bni.png" alt=""
+                                class="cursor-pointer opacity-50 hover:opacity-100 transition-all duration-500">
+                            <img src="img/logo-gopay.png" alt=""
+                                class="cursor-pointer opacity-50 hover:opacity-100 transition-all duration-500">
+                            <img src="img/logo-qris.png" alt=""
+                                class="cursor-pointer opacity-50 hover:opacity-100 transition-all duration-500">
+                        </div>
+                    </div>
+                    <button class="btn-primary w-full">Continue</button>
+                </div>
+            </div>
+        </section>
+
+    </div>
+</body>
+
+</html>
